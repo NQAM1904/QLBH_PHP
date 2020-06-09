@@ -1,78 +1,76 @@
 <?php
 #Kiểm tra đăng nhập admin
-$action = (isset($_GET['action']))?$_GET['action']:'home';
-switch($action){
+$action = (isset($_GET['action'])) ? $_GET['action'] : 'home';
+switch ($action) {
 	case 'home':
-	$db = new Database;
-	$products = $db->fetchAll("products");
-	break;
+		$db = new Database;
+		$products = $db->fetchAll("products");
+		break;
 
 	case 'category':
-	break;
+		break;
 
 	case 'product':
-	break;
+		$id = intval(getInput('id'));
+		$products = $db->fetchID("products", $id);
+		break;
 
 	case 'payment':
-	$id = intval(getInput('id'));
-	$products = $db->fetchID("products", $id);
+		$id = intval(getInput('id'));
+		$products = $db->fetchID("products", $id);
 
-	if($_SERVER["REQUEST_METHOD"] == "POST")
-	{
-		debug($_POST);
-		$data =[
-			'amount' => postInput('tien') 
-		];
-		$idbill = $db->insert("bills", $data);
-	if($idbill > 0)
-		{
-			foreach($_SESSION['cart'] as $key => $value)
-			{
-				$data2 = [
-					'id_bill'   => $idbill,
-					'id_product'=> $key,
-					'count'     => $value('count'),
-					'unit_price'=> $value('price') 
-				];
-				$id_insert = $db ->insert("bill_detail",$data2);
+		if ($_SERVER["REQUEST_METHOD"] == "POST") {
+			debug($_POST);
+			$data = [
+				'amount' => postInput('tien')
+			];
+			$idbill = $db->insert("bills", $data);
+			if ($idbill > 0) {
+				foreach ($_SESSION['cart'] as $key => $value) {
+					$data2 = [
+						'id_bill'   => $idbill,
+						'id_product' => $key,
+						'count'     => $value('count'),
+						'unit_price' => $value('price')
+					];
+					$id_insert = $db->insert("bill_detail", $data2);
+				}
+				unset($_SESSION['cart']);
+				$_SESSION['success'] = "Đã xác nhận đơn hàng! cảm ơn bạn đã đặt hàng của chúng tôi!";
+				header("location: thongbao.php");
+				exit();
 			}
-			unset($_SESSION['cart']);
-			$_SESSION['success'] = "Đã xác nhận đơn hàng! cảm ơn bạn đã đặt hàng của chúng tôi!";
-			header("location: thongbao.php");
-			exit();
 		}
-	}
-	break;
+		break;
 
 	case 'noti':
-	break;
+		break;
 
 	case 'addcart':
-	$db = new Database;
-	$open = "products";
-	$id = intval(getInput('id'));
-	$products = $db->fetchID("products", $id);
-	$sum = 0;
-	if (!isset($_SESSION['cart'][$id])) {
-		$_SESSION['cart'][$id]['name'] = $products['name'];
-		$_SESSION['cart'][$id]['description'] = $products['description'];
-		$_SESSION['cart'][$id]['image'] = $products['image'];
-		$_SESSION['cart'][$id]['price'] = $products['price'];
-		$_SESSION['cart'][$id]['count'] = 1;
-	} else {
-		$_SESSION['cart'][$id]['count'] = 1;
-	}
-	break;
+		$db = new Database;
+		$open = "products";
+		$id = intval(getInput('id'));
+		$products = $db->fetchID("products", $id);
+		$sum = 0;
+		if (!isset($_SESSION['cart'][$id])) {
+			$_SESSION['cart'][$id]['name'] = $products['name'];
+			$_SESSION['cart'][$id]['description'] = $products['description'];
+			$_SESSION['cart'][$id]['image'] = $products['image'];
+			$_SESSION['cart'][$id]['price'] = $products['price'];
+			$_SESSION['cart'][$id]['count'] = 1;
+		} else {
+			$_SESSION['cart'][$id]['count'] = 1;
+		}
+		break;
 
 	case 'login':
-	break;
+		break;
 
 	case 'signup':
-	break;
+		break;
 
 	default:
-	require_once("404.php");
-	die();
-	break;
+		require_once("404.php");
+		die();
+		break;
 }
-?>

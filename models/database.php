@@ -1,4 +1,4 @@
-<?php 
+<?php
 class Database
 {
     /**
@@ -23,7 +23,7 @@ class Database
      */
     public function insert($table, array $data)
     {
-            //code
+        //code
         $sql = "INSERT INTO {$table} ";
         $columns = implode(',', array_keys($data));
         $values = "";
@@ -37,7 +37,7 @@ class Database
         }
         $values = substr($values, 0, -1);
         $sql .= " VALUES (" . $values . ')';
-            // _debug($sql);die;
+        // _debug($sql);die;
         mysqli_query($this->link, $sql) or die("Lỗi  query  insert ----" . mysqli_error($this->link));
         return mysqli_insert_id($this->link);
     }
@@ -72,7 +72,7 @@ class Database
         $where = substr($where, 0, -5);
 
         $sql .= $set . $where;
-            // _debug($sql);die;
+        // _debug($sql);die;
 
         mysqli_query($this->link, $sql) or die("Lỗi truy vấn Update -- " . mysqli_error());
 
@@ -82,7 +82,6 @@ class Database
     {
         $result = mysqli_query($this->link, $sql) or die("Lỗi update view " . mysqli_error($this->link));
         return mysqli_affected_rows($this->link);
-
     }
     public function countTable($table)
     {
@@ -152,7 +151,7 @@ class Database
     public function deletesql($table, $sql)
     {
         $sql = "DELETE FROM {$table} WHERE " . $sql;
-            // _debug($sql);die;
+        // _debug($sql);die;
         mysqli_query($this->link, $sql) or die(" Lỗi Truy Vấn delete   --- " . mysqli_error($this->link));
         return mysqli_affected_rows($this->link);
     }
@@ -202,7 +201,7 @@ class Database
     {
 
         $data = [];
-            // _debug($sql);die;
+        // _debug($sql);die;
         if ($pagi == true) {
             $total = $this->countTable($table);
             $sotrang = ceil($total / $row);
@@ -220,7 +219,7 @@ class Database
                 $data[] = $num;
             }
         }
-            // _debug($data);
+        // _debug($data);
         return $data;
     }
     public function total($sql)
@@ -230,5 +229,3 @@ class Database
         return $tien;
     }
 }
-
-?>
