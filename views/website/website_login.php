@@ -1,11 +1,10 @@
 <div class="inner-header">
     <div class="container">
         <div class="pull-left">
-            <h6 class="inner-title">Đăng nhập</h6>
         </div>
         <div class="pull-right">
             <div class="beta-breadcrumb">
-                <a href="<?=base_url()?>index.php?controller=website">Home</a> / <span>Đăng nhập</span>
+                <a href="<?= base_url() ?>index.php?controller=website">Trang chủ</a> / <span>Đăng nhập</span>
             </div>
         </div>
         <div class="clearfix"></div>
@@ -24,11 +23,11 @@
                         <input type="email" id="email" required>
                     </div>
                     <div class="form-block">
-                        <label for="phone">Password*</label>
+                        <label for="phone">Mật khẩu*</label>
                         <input type="text" id="phone" required>
                     </div>
                     <div class="form-block">
-                        <button type="submit" class="btn btn-primary">Login</button>
+                        <button type="submit" class="btn btn-primary">Đăng nhập</button>
                     </div>
                 </div>
                 <div class="col-sm-3"></div>

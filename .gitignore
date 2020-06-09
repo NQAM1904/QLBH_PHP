@@ -1,5 +1,3 @@
-/upload
-mvc_clcs.csprj
-mvc.clpprj
-qlbanhang.sql
-/models
+views/login
+views/website
+controllers/website

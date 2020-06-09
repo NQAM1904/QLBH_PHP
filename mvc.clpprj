@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="D:\Download\MVC\mvc.clpprj">
+	<settings><PM_URL><![CDATA[D:\Download\MVC\]]></PM_URL><PM_HOME_URL><![CDATA[D:\Download\MVC\]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="D:\Download\MVC\index.php"/>
+		<file name="D:\Download\MVC\models\function.php"/>
+		<file name="D:\Download\MVC\models\database.php"/>
+		<file name="D:\Download\MVC\views\admin\category_insert.php"/>
+		<file name="D:\Download\MVC\controllers\admin\category.php"/>
+		<file name="D:\Download\MVC\views\admin\layout.php"/>
+		<file name="D:\Download\MVC\views\admin\_footer.php"/>
+		<file name="D:\Download\MVC\views\admin\_header.php"/>
+		<file name="D:\Download\MVC\views\admin\category_update.php"/>
+		<file name="D:\Download\MVC\views\admin\category_list.php"/>
+		<file name="D:\Download\MVC\views\admin\category_delete.php"/>
+	</lastopfiles>
+	<errors version="5.11">
+	</errors>
+	<cakedata>
+	</cakedata>
+	<dplmenupath>
+	</dplmenupath><laravael>
+	</laravael><smartyassings>
+	</smartyassings><twigtemplate>
+	</twigtemplate><yiidata>
+	</yiidata>
+	<todoblock>
+	</todoblock>
+	<filescache>
+		<file name="D:\Download\MVC\views\website\layout.php" crc="1538881595"/>
+		<file name="D:\Download\MVC\views\website\_header.php" crc="1538881479"/>
+		<file name="D:\Download\MVC\views\website\_footer.php" crc="1538881487"/>
+		<file name="D:\Download\MVC\views\admin\product_update.php" crc="1539144077"/>
+		<file name="D:\Download\MVC\views\admin\product_list.php" crc="1539143235"/>
+		<file name="D:\Download\MVC\views\admin\product_insert.php" crc="1539142971"/>
+		<file name="D:\Download\MVC\views\admin\product_delete.php" crc="1539147502"/>
+		<file name="D:\Download\MVC\views\admin\layout.php" crc="1539086774"/>
+		<file name="D:\Download\MVC\views\admin\dashborad.php" crc="1539103106"/>
+		<file name="D:\Download\MVC\views\admin\category_update.php" crc="1539147325"/>
+		<file name="D:\Download\MVC\views\admin\category_list.php" crc="1539147439"/>
+		<file name="D:\Download\MVC\views\admin\category_insert.php" crc="1539145926"/>
+		<file name="D:\Download\MVC\views\admin\category_delete.php" crc="1539140826"/>
+		<file name="D:\Download\MVC\views\admin\_header.php" crc="1539146101"/>
+		<file name="D:\Download\MVC\views\admin\_footer.php" crc="1539146111"/>
+		<file name="D:\Download\MVC\models\function.php" crc="1539145584"/>
+		<file name="D:\Download\MVC\models\database.php" crc="1539145538"/>
+		<file name="D:\Download\MVC\controllers\admin\product.php" crc="1539081125"/>
+		<file name="D:\Download\MVC\controllers\admin\login.php" crc="1539079399"/>
+		<file name="D:\Download\MVC\controllers\admin\dashboard.php" crc="1539103402"/>
+		<file name="D:\Download\MVC\controllers\admin\category.php" crc="1539147610"/>
+		<file name="D:\Download\MVC\controllers\admin\admin.php" crc="1539080635"/>
+		<file name="D:\Download\MVC\assets\vendor\jquery-easing\jquery.easing.min.js" crc="1538882825"/>
+		<file name="D:\Download\MVC\assets\vendor\jquery-easing\jquery.easing.js" crc="1538882825"/>
+		<file name="D:\Download\MVC\assets\vendor\jquery-easing\jquery.easing.compatibility.js" crc="1538882825"/>
+		<file name="D:\Download\MVC\assets\vendor\jquery\jquery.slim.min.js" crc="1538882825"/>
+		<file name="D:\Download\MVC\assets\vendor\jquery\jquery.slim.js" crc="1538882825"/>
+		<file name="D:\Download\MVC\assets\vendor\jquery\jquery.min.js" crc="1538882825"/>
+		<file name="D:\Download\MVC\assets\vendor\jquery\jquery.js" crc="1538882825"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\scss\v4-shims.scss" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\scss\solid.scss" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\scss\regular.scss" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\scss\fontawesome.scss" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\scss\brands.scss" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\scss\_variables.scss" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\scss\_stacked.scss" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\scss\_shims.scss" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\scss\_screen-reader.scss" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\scss\_rotated-flipped.scss" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\scss\_mixins.scss" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\scss\_list.scss" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\scss\_larger.scss" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\scss\_icons.scss" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\scss\_fixed-width.scss" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\scss\_core.scss" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\scss\_bordered-pulled.scss" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\scss\_animated.scss" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\less\v4-shims.less" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\less\solid.less" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\less\regular.less" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\less\fontawesome.less" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\less\brands.less" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\less\_variables.less" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\less\_stacked.less" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\less\_shims.less" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\less\_screen-reader.less" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\less\_rotated-flipped.less" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\less\_mixins.less" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\less\_list.less" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\less\_larger.less" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\less\_icons.less" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\less\_fixed-width.less" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\less\_core.less" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\less\_bordered-pulled.less" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\less\_animated.less" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\js\v4-shims.min.js" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\js\v4-shims.js" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\js\solid.min.js" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\js\solid.js" crc="1538882814"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\js\regular.min.js" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\js\regular.js" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\js\fontawesome.min.js" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\js\fontawesome.js" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\js\brands.min.js" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\js\brands.js" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\js\all.min.js" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\js\all.js" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\css\v4-shims.min.css" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\css\v4-shims.css" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\css\svg-with-js.min.css" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\css\svg-with-js.css" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\css\solid.min.css" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\css\solid.css" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\css\regular.min.css" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\css\regular.css" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\css\fontawesome.min.css" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\css\fontawesome.css" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\css\brands.min.css" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\css\brands.css" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\css\all.min.css" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\css\all.css" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\fontawesome-free\LICENSE.txt" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\datatables\jquery.dataTables.min.js" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\datatables\jquery.dataTables.js" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\datatables\dataTables.bootstrap4.min.js" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\datatables\dataTables.bootstrap4.min.css" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\datatables\dataTables.bootstrap4.js" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\datatables\dataTables.bootstrap4.css" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\chart.js\Chart.min.js" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\chart.js\Chart.js" crc="1538882813"/>
+		<file name="D:\Download\MVC\assets\vendor\chart.js\Chart.bundle.min.js" crc="1538882812"/>
+		<file name="D:\Download\MVC\assets\vendor\chart.js\Chart.bundle.js" crc="1538882812"/>
+		<file name="D:\Download\MVC\assets\vendor\bootstrap\js\bootstrap.min.js" crc="1538882812"/>
+		<file name="D:\Download\MVC\assets\vendor\bootstrap\js\bootstrap.js" crc="1538882812"/>
+		<file name="D:\Download\MVC\assets\vendor\bootstrap\js\bootstrap.bundle.min.js" crc="1538882812"/>
+		<file name="D:\Download\MVC\assets\vendor\bootstrap\js\bootstrap.bundle.js" crc="1538882812"/>
+		<file name="D:\Download\MVC\assets\vendor\bootstrap\css\bootstrap.min.css" crc="1538882812"/>
+		<file name="D:\Download\MVC\assets\vendor\bootstrap\css\bootstrap.css" crc="1538882812"/>
+		<file name="D:\Download\MVC\assets\vendor\bootstrap\css\bootstrap-reboot.min.css" crc="1538882812"/>
+		<file name="D:\Download\MVC\assets\vendor\bootstrap\css\bootstrap-reboot.css" crc="1538882812"/>
+		<file name="D:\Download\MVC\assets\vendor\bootstrap\css\bootstrap-grid.min.css" crc="1538882812"/>
+		<file name="D:\Download\MVC\assets\vendor\bootstrap\css\bootstrap-grid.css" crc="1538882812"/>
+		<file name="D:\Download\MVC\assets\scss\sb-admin.scss" crc="1538882780"/>
+		<file name="D:\Download\MVC\assets\scss\_variables.scss" crc="1538882780"/>
+		<file name="D:\Download\MVC\assets\scss\_utilities.scss" crc="1538882780"/>
+		<file name="D:\Download\MVC\assets\scss\_navbar.scss" crc="1538882780"/>
+		<file name="D:\Download\MVC\assets\scss\_mixins.scss" crc="1538882780"/>
+		<file name="D:\Download\MVC\assets\scss\_login.scss" crc="1538882780"/>
+		<file name="D:\Download\MVC\assets\scss\_global.scss" crc="1538882780"/>
+		<file name="D:\Download\MVC\assets\scss\_footer.scss" crc="1538882780"/>
+		<file name="D:\Download\MVC\assets\scss\_cards.scss" crc="1538882780"/>
+		<file name="D:\Download\MVC\assets\js\demo\datatables-demo.js" crc="1538882798"/>
+		<file name="D:\Download\MVC\assets\js\demo\chart-pie-demo.js" crc="1538882798"/>
+		<file name="D:\Download\MVC\assets\js\demo\chart-bar-demo.js" crc="1538882798"/>
+		<file name="D:\Download\MVC\assets\js\demo\chart-area-demo.js" crc="1538882798"/>
+		<file name="D:\Download\MVC\assets\js\sb-admin.min.js" crc="1538882798"/>
+		<file name="D:\Download\MVC\assets\js\sb-admin.js" crc="1538882798"/>
+		<file name="D:\Download\MVC\assets\css\sb-admin.min.css" crc="1538882738"/>
+		<file name="D:\Download\MVC\assets\css\sb-admin.css" crc="1538882738"/>
+		<file name="D:\Download\MVC\assets\css\fontawesome.min.css" crc="1538882738"/>
+		<file name="D:\Download\MVC\index.php" crc="1539145515"/>
+		<file name="D:\Download\MVC\404.php" crc="1538880539"/>
+	</filescache>
+</project>

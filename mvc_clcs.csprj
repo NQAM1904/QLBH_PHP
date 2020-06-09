@@ -1,0 +1,66 @@
+<codestructure version="5.14">
+<phptree>
+<treenode node="404.php;PHP:PHP Include;D:\Download\MVC\controllers\admin\product.php;f15;19;22;19;;D:\Download\MVC\controllers\admin\login.php;f15;16;22;16;;D:\Download\MVC\controllers\admin\dashboard.php;f15;18;22;18;;D:\Download\MVC\controllers\admin\admin.php;f15;16;22;16;;D:\Download\MVC\index.php;f15;46;22;46;;D:\Download\MVC\controllers\admin\category.php;f15;85;22;85;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="CADMIN;PHP:PHP Word;D:\Download\MVC\index.php;f8;5;14;5;;;;vpos;;v;;r$_SERVER[&apos;DOCUMENT_ROOT&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="M;PHP:PHP Word;D:\Download\MVC\index.php;f8;4;9;4;;;;vpos;;v;;r$_SERVER[&apos;DOCUMENT_ROOT&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="ROOT;PHP:PHP Word;D:\Download\MVC\index.php;f8;8;12;8;;;;vpos;;v;;r$_SERVER[&apos;DOCUMENT_ROOT&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="VADMIN;PHP:PHP Word;D:\Download\MVC\index.php;f8;6;14;6;;;;vpos;;v;;r$_SERVER[&apos;DOCUMENT_ROOT&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="VWEB;PHP:PHP Word;D:\Download\MVC\index.php;f8;7;12;7;;;;vpos;;v;;r$_SERVER[&apos;DOCUMENT_ROOT&apos;;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="Database;PHP:Class Name;D:\Download\MVC\models\database.php;f0;1;1;231;;;;vpos;;v;;r;;d0,2;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;D:\Download\MVC\models\database.php;f11;9;5;13;;;;vpos;;v;;r;;d4,10;;b1,0;;m">
+</treenode>
+<treenode node="countTable;PHP:Function Name;D:\Download\MVC\models\database.php;f11;86;5;92;;;;vpos;;v;;r;;d4,87;;b1,0;;mtable;;p">
+</treenode>
+<treenode node="delete;PHP:Function Name;D:\Download\MVC\models\database.php;f11;101;5;107;;;;vpos;;vinteger;;r&#10;Definition&#10;    delete($table, $id)&#10;&#10;Description&#10;     [delete description] hàm delete&#10;&#10;Parameters:&#10;     $table - [description]&#10;    array $conditions - [description]&#10;&#10;Return:&#10;   [description];;d4,102;;b1,0;;m $table;;parray $conditions;;p">
+</treenode>
+<treenode node="deletesql;PHP:Function Name;D:\Download\MVC\models\database.php;f11;151;5;157;;;;vpos;;v;;r;;d4,152;;b1,0;;mtable;;psql;;p">
+</treenode>
+<treenode node="deletewhere;PHP:Function Name;D:\Download\MVC\models\database.php;f11;113;5;121;;;;vpos;;v;;r&#10;Definition&#10;    deletewhere($table, $data = array())&#10;&#10;Description&#10;     delete array;;d4,114;;b1,0;;mtable;;pdata;;p">
+</treenode>
+<treenode node="fetchAll;PHP:Function Name;D:\Download\MVC\models\database.php;f11;161;5;172;;;;vpos;;v;;r;;d4,162;;b1,0;;mtable;;p">
+</treenode>
+<treenode node="fetchID;PHP:Function Name;D:\Download\MVC\models\database.php;f11;135;5;140;;;;vpos;;v;;r;;d4,136;;b1,0;;mtable;;pid;;p">
+</treenode>
+<treenode node="fetchJone;PHP:Function Name;D:\Download\MVC\models\database.php;f11;200;5;224;;;;vpos;;v;;r;;d4,201;;b1,0;;mtable;;psql;;ppage;;prow;;ppagi;;p">
+</treenode>
+<treenode node="fetchJones;PHP:Function Name;D:\Download\MVC\models\database.php;f11;175;5;199;;;;vpos;;v;;r;;d4,176;;b1,0;;mtable;;psql;;ptotal;;ppage;;prow;;ppagi;;p">
+</treenode>
+<treenode node="fetchOne;PHP:Function Name;D:\Download\MVC\models\database.php;f11;142;5;149;;;;vpos;;v;;r;;d4,143;;b1,0;;mtable;;pquery;;p">
+</treenode>
+<treenode node="fetchsql;PHP:Function Name;D:\Download\MVC\models\database.php;f11;123;5;133;;;;vpos;;v;;r;;d4,124;;b1,0;;msql;;p">
+</treenode>
+<treenode node="insert;PHP:Function Name;D:\Download\MVC\models\database.php;f11;23;5;42;;;;vpos;;vinteger;;r&#10;Definition&#10;    insert($table, array $data)&#10;&#10;Description&#10;     [insert description] hàm insert&#10;&#10;Parameters:&#10;     $table&#10;    array $data;;d4,24;;b1,0;;m $table;;parray $data;;p">
+</treenode>
+<treenode node="total;PHP:Function Name;D:\Download\MVC\models\database.php;f11;225;5;230;;;;vpos;;v;;r;;d4,226;;b1,0;;msql;;p">
+</treenode>
+<treenode node="update;PHP:Function Name;D:\Download\MVC\models\database.php;f11;44;5;79;;;;vpos;;v;;r;;d4,45;;b1,0;;mtable;;pdata;;pconditions;;p">
+</treenode>
+<treenode node="updateview;PHP:Function Name;D:\Download\MVC\models\database.php;f11;80;5;85;;;;vpos;;v;;r;;d4,81;;b1,0;;msql;;p">
+</treenode>
+</treenode>
+<treenode node="base_url;PHP:Function Name;D:\Download\MVC\models\function.php;f0;11;1;13;;;;vpos;;v;;r;;d19,11;;b0,0;;m">
+</treenode>
+<treenode node="debug;PHP:Function Name;D:\Download\MVC\models\function.php;f0;73;1;84;;;;vpos;;v;;r;;d34,73;;b0,0;;mdata;;prun;;p">
+</treenode>
+<treenode node="getInput;PHP:Function Name;D:\Download\MVC\models\function.php;f4;6;5;9;;;;vpos;;v;;r;;d4,7;;b0,0;;mstring;;p">
+</treenode>
+<treenode node="postInput;PHP:Function Name;D:\Download\MVC\models\function.php;f4;1;5;4;;;;vpos;;v;;r;;d4,2;;b0,0;;mstring;;p">
+</treenode>
+<treenode node="public_admin;PHP:Function Name;D:\Download\MVC\models\function.php;f0;15;1;17;;;;vpos;;v;;r;;d23,15;;b0,0;;m">
+</treenode>
+<treenode node="public_frontend;PHP:Function Name;D:\Download\MVC\models\function.php;f0;24;1;26;;;;vpos;;v;;r;;d26,24;;b0,0;;m">
+</treenode>
+<treenode node="redirectAdmin;PHP:Function Name;D:\Download\MVC\models\function.php;f4;30;5;34;;;;vpos;;v;;r;;d4,31;;b0,0;;murl;;p">
+</treenode>
+<treenode node="views;PHP:Function Name;D:\Download\MVC\models\function.php;f0;19;1;22;;;;vpos;;v;;r;;d0,20;;b0,0;;murl;;p">
+</treenode>
+<treenode node="xss_clean;PHP:Function Name;D:\Download\MVC\models\function.php;f0;37;5;71;;;;vpos;;v;;r;;d0,38;;b0,0;;mdata;;p">
+</treenode>
+</phptree>
+</codestructure>

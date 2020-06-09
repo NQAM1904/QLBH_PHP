@@ -1,11 +1,10 @@
 <div class="inner-header">
     <div class="container">
         <div class="pull-left">
-            <h6 class="inner-title">Đăng kí</h6>
         </div>
         <div class="pull-right">
             <div class="beta-breadcrumb">
-                <a href="">Home</a> / <span>Đăng kí</span>
+                <a href="/index.php?controller=website&action=signup">Trang chủ</a> / <span>Đăng kí</span>
             </div>
         </div>
         <div class="clearfix"></div>
@@ -17,19 +16,18 @@
             <div class="row">
                 <div class="col-sm-3"></div>
                 <div class="col-sm-6">
-                    <h4>Đăng kí</h4>
                     <div class="space20">&nbsp;</div>
                     <div class="form-block">
                         <label for="email">Tên đăng nhập</label>
-                        <input type="email" id="email" required>
+                        <input type="text" id="email" required>
                     </div>
                     <div class="form-block">
-                        <label for="your_last_name">Fullname*</label>
+                        <label for="your_last_name">Họ tên *</label>
                         <input type="text" id="your_last_name" required>
                     </div>
                     <div class="form-block">
-                        <label for="adress">Address*</label>
-                        <input type="text" id="adress" value="Street Address" required>
+                        <label for="your_last_name">Địa chỉ *</label>
+                        <input type="text" id="adress" required>
                     </div>
                     <div class="form-block">
                         <label for="phone">Phone*</label>
