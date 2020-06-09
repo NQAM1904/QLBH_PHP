@@ -11,6 +11,8 @@ switch ($action) {
 		break;
 
 	case 'product':
+		$db = new Database;
+		$open = "products";
 		$id = intval(getInput('id'));
 		$products = $db->fetchID("products", $id);
 		break;
@@ -19,25 +21,29 @@ switch ($action) {
 		$id = intval(getInput('id'));
 		$products = $db->fetchID("products", $id);
 
-		if ($_SERVER["REQUEST_METHOD"] == "POST") {
-			debug($_POST);
+		if (($_SERVER["REQUEST_METHOD"] == "POST") == false) {
+			// debug($_POST);
 			$data = [
-				'amount' => postInput('tien')
+				'amount' => $_SESSION['tien']
 			];
+
 			$idbill = $db->insert("bills", $data);
+
 			if ($idbill > 0) {
 				foreach ($_SESSION['cart'] as $key => $value) {
 					$data2 = [
 						'id_bill'   => $idbill,
 						'id_product' => $key,
-						'count'     => $value('count'),
-						'unit_price' => $value('price')
+						'count'     => $value['count'],
+						'price' => $value['price']
 					];
+
 					$id_insert = $db->insert("bill_detail", $data2);
 				}
 				unset($_SESSION['cart']);
+				unset($_SESSION['total']);
 				$_SESSION['success'] = "Đã xác nhận đơn hàng! cảm ơn bạn đã đặt hàng của chúng tôi!";
-				header("location: thongbao.php");
+				header("location: website_noti.php");
 				exit();
 			}
 		}
@@ -62,7 +68,12 @@ switch ($action) {
 			$_SESSION['cart'][$id]['count'] = 1;
 		}
 		break;
-
+	case 'removeItem':
+		$id = intval(getInput('id'));
+		unset($_SESSION['cart'][$id]);
+		$_SESSION['success'] = "xóa sản phẩm trong giỏ hàng thàng công";
+		header("<?= base_url() ?>index.php?controller=website=website_addcart.php");
+		break;
 	case 'login':
 		break;
 

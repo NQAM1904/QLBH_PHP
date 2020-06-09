@@ -73,7 +73,7 @@ $category = $db->fetchAll("category");
                                         <br />
                                         <div class="single-item-caption">
                                             <a class="add-to-cart pull-left" href="<?= base_url() ?>index.php?controller=website&action=addcart&id=<?= $item['id'] ?>"><i class="fa fa-shopping-cart"></i></a>
-                                            <a class="beta-btn primary" href="<?= base_url() ?>index.php?controller=website&action=product=<?php $item['id'] ?>">Chi Tiết <i class="fa fa-chevron-right"></i></a>
+                                            <a class="beta-btn primary" href="<?= base_url() ?>index.php?controller=website&action=product&id=<?= $item['id'] ?>">Chi Tiết <i class="fa fa-chevron-right"></i></a>
                                             <div class="clearfix"></div>
                                         </div>
                                     </div>
