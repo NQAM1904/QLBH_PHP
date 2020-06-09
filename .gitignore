@@ -1,3 +1,6 @@
 mvc_clcs.csprj
 mvc.clpprj
 qlbanhang.sql
+views/admin
+controllers/admin
+views/login
