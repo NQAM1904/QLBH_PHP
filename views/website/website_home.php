@@ -56,7 +56,7 @@ $category = $db->fetchAll("category");
                                     <br>
                                     <div class="single-item">
                                         <div class="single-item-header">
-                                            <a href="product.php">
+                                            <a href="<?= base_url() ?>index.php?controller=website&action=product&id=<?= $item['id'] ?>">
                                                 <img src="/MVC/upload/product/<?= $item['image'] ?>" width="350px" height="300px" style="object-fit: cover" /></a>
                                         </div>
                                         <div class="single-item-body">

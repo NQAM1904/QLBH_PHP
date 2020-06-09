@@ -35,6 +35,11 @@ switch ($controller) {
 		$layout = VADMIN . 'layout.php';
 		break;
 
+	case 'bill':
+		require_once(CADMIN . "$controller.php");
+		$layout = VADMIN . 'layout.php';
+		break;
+
 	case 'admin':
 		require_once(CADMIN . "$controller.php");
 		$layout = VADMIN . 'layout.php';

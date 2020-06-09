@@ -1,22 +1,21 @@
 <?php
 #Kiểm tra đăng nhập admin
-$action = (isset($_GET['action']))?$_GET['action']:'list';
-switch($action){
+$action = (isset($_GET['action'])) ? $_GET['action'] : 'list';
+switch ($action) {
 	case 'list':
-	break;
+		break;
 
 	case 'insert':
-	break;
+		break;
 
 	case 'update':
-	break;
+		break;
 
 	case 'delete':
-	break;
+		break;
 
 	default:
-	require_once("404.php");
-	die();
-	break;
+		require_once("404.php");
+		die();
+		break;
 }
-?>

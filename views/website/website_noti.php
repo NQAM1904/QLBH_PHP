@@ -4,7 +4,7 @@
         <div class="clearfix"></div>
         <?php if (isset($_SESSION['success'])) : ?>
             <div class="alert alert-success" role="alert">
-                <strong style="color:#3c763">Success!</strong> <?php echo $_SESSION['success'];
+                <strong style="color:green">Success!</strong> <?php echo $_SESSION['success'];
                                                                 unset($_SESSION['success']) ?>
             </div>
         <?php endif ?>

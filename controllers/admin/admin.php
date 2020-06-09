@@ -1,21 +1,15 @@
 <?php
-$action = (isset($_GET['action']))?$_GET['action']:'list';
-switch($action){
+$action = (isset($_GET['action'])) ? $_GET['action'] : 'list';
+switch ($action) {
 	case 'list':
-	break;
+		if ($_SESSION['u_id'] == null | $_SESSION['u_uid'] == null) {
 
-	case 'insert':
-	break;
-
-	case 'update':
-	break;
-
-	case 'delete':
-	break;
+			return header("location: " . base_url() . "index.php?controller=login");;
+		}
+		break;
 
 	default:
-	require_once("404.php");
-	die();
-	break;
+		require_once("404.php");
+		die();
+		break;
 }
-?>

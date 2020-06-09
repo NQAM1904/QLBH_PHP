@@ -28,6 +28,7 @@ class Database
         $columns = implode(',', array_keys($data));
         $values = "";
         $sql .= '(' . $columns . ')';
+
         foreach ($data as $field => $value) {
             if (is_string($value)) {
                 $values .= "'" . mysqli_real_escape_string($this->link, $value) . "',";
@@ -35,10 +36,15 @@ class Database
                 $values .= mysqli_real_escape_string($this->link, $value) . ',';
             }
         }
+
         $values = substr($values, 0, -1);
         $sql .= " VALUES (" . $values . ')';
+        // echo "<pre>value ", print_r($values, 1), "</pre>";
+        // echo "<pre>sql ", print_r($sql, 1), "</pre>";
+        // echo "<pre>link ", print_r($this->link, 1), "</pre>";
+        // die();
         // _debug($sql);die;
-        mysqli_query($this->link, $sql) or die("Lỗi  query  insert ----" . mysqli_error($this->link));
+        mysqli_query($this->link, $sql);
         return mysqli_insert_id($this->link);
     }
 

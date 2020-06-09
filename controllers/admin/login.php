@@ -10,7 +10,8 @@ switch ($action) {
 		} else {
 			$result = $db->fetchOne('admin', "user_uid='$uid' and user_pwd='$pwd'");
 			if (!is_array($result)) {
-				header("location: " . base_url() . "index.php?controller=login&action=error");
+				$_SESSION['error'] = "Đăng nhập thất bại";
+				header("location: " . base_url() . "index.php?controller=login&action=login");
 				exit();
 			} else {
 				$_SESSION['u_id']  = $result['user_id'];

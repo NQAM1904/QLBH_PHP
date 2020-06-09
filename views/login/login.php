@@ -31,7 +31,13 @@
             text-decoration: none !important;
         }
     </style>
+    <?php if (isset($_SESSION['error'])) : ?>
+        <script text="javascript/language">
+            $.notify(" <?php echo $_SESSION['error'];
+                        unset($_SESSION['error']) ?>", "error");
+        </script>
 
+    <?php endif; ?>
     <div class="container-login">
         <div class="row justify-content-center">
             <div class="col-xl-10 col-lg-12 col-md-9">
